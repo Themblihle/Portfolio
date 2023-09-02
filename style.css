@@ -127,42 +127,89 @@ img {
 	background-color:rgb(16, 70, 73);
 
 }
-.aboutSection{
-    background-color: rgb(0, 0, 0);
-    height: 700px;
- 
+#aboutSection{
+    background-color: rgb(14, 25, 49);
+    height: 710px;
     background-position: center;
-    background-size: cover;
-    /* height: 109vh; */
-    
-    
-    
+    background-size: cover; 
+    color: aliceblue; 
 }
-.aboutMe{
-    padding-top: 100px;
-    color: aliceblue;
-    text-align: right ;
-
-    }
-.aboutText{
-    padding-top: 50px;
-    color: aliceblue;
+.about{
+    padding: 5%;
+    margin: auto;
+    
+      
+}
+#H1s{
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: rgb(6, 113, 19);;
+    text-decoration-style: solid;
+    text-align: center;
+    padding-left: 5%;
+}
+.about p{
+    font-weight: 100;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: right;
+    text-decoration-style: solid;
+   
+    margin-top: 30px;
+    
+    
+
+
+}
+img{
+    
+
+    width: 400px;
+    height: 400px;
+    border: 2px solid rgb(6, 113, 19);
+
+    
+    
 }
 
-.myPicture{
-    width: 20%;
-    padding-left: 1%;
-}
+
+
 #skills{
     background-color: rgb(0, 0, 0);
-    height: 700px;
- 
+    height: 710px;
     background-position: center;
     background-size: cover;
     color: aliceblue;
 
 }
+.skillsSection{
+    padding: 5%;
+    margin: auto;
+
+}
+
+h1 i{
+    font-size: 80px;
+    color: rgb(6, 113, 19);
+}
+.javaSkills{
+    padding: 5%;
+}
+.skill{
+	display: inline-block;
+	padding: 10px 30px;
+	color: rgb(181, 188, 194);
+	background-color: rgb(1, 30, 4);
+    border-radius: 10%;
+	border: 2px solid rgb(40, 45, 41);
+	font-size: 40px;
+	text-transform: uppercase;
+    text-decoration-line: none;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+
 #projects{
     background-color: rgb(0, 0, 0);
     height: 700px;
@@ -170,6 +217,9 @@ img {
     background-position: center;
     background-size: cover;
     color: aliceblue;
+}
+.projectSection{
+
 }
 #contacts{
     background-color: rgb(0, 0, 0);
