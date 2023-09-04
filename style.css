@@ -5,36 +5,46 @@
     
 }
 
-
-.headerSection{
-    background-color: rgb(0, 0, 0);
-    height: 60px;
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
 }
+.logo{
 
-
-.logoStage{
     font-size: 15px;
-    padding: 15px;
-    margin-right: 20;
-    float: left;
-    color: rgb(181, 188, 194);
-    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: rgb(213, 213, 213);
+    letter-spacing: 4px;
+    border: 2px solid rgb(40, 45, 41);
+    padding: 5px; 
+}
+
+span{
+    color: rgb(44, 244, 178);
+}
+
+.nav-links{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    width: 35%;
 
 }
-.navigation{
-    text-align: right;
-    letter-spacing: 2px;
-    padding: 15px;
-    width: 90%;
-    font-size: 20px;
-    
+.nav-links a{
+    color: rgb(195, 195, 195);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.navigation nav a{
-    color: rgb(181, 188, 194);
-    padding: 10px;
-    text-decoration-line: none;
+.nav-links li{
+    justify-content: space-around;
+}
 
-}
 .container {
 	min-height: 100vh;
 	width: 100%;
@@ -117,60 +127,33 @@ img {
 	color: rgb(181, 188, 194);
 	background-color:rgb(16, 70, 73);
 }
-.navigation nav a:hover a::after{
-    transform: translate(-50%, -50%) scale(1);
-	letter-spacing: initial;
 
-}
-.navigation nav a:hover{
-    color: rgb(181, 188, 194);
-	background-color:rgb(16, 70, 73);
-
-}
-#aboutSection{
+.aboutSection{
+    display: flex;
+    align-items: center;
     background-color: rgb(14, 25, 49);
     height: 710px;
-    background-position: center;
-    background-size: cover; 
-    color: aliceblue; 
+  
 }
-.about{
-    padding: 5%;
-    margin: auto;
-    
-      
-}
-#H1s{
-    font-size: 50px;
-    text-decoration: underline;
-    text-decoration-color: rgb(6, 113, 19);;
-    text-decoration-style: solid;
-    text-align: center;
-    padding-left: 5%;
-}
-.about p{
-    font-weight: 100;
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
-    text-decoration-style: solid;
-   
-    margin-top: 30px;
-    
-    
-
-
-}
-img{
-    
-
+.image-left{
+    flex: 0 0 auto;
+    margin: 100px;
     width: 400px;
     height: 400px;
     border: 2px solid rgb(6, 113, 19);
 
-    
-    
 }
+.aboutSection h1{
+    flex: 1;     
+    margin-bottom: 20%;
+    text-align: right;
+
+}
+.text-right{
+    flex: 1;
+    text-align: center;
+}
+
 
 
 
